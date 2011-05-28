@@ -37,6 +37,7 @@ void Init_rb_libssh_constants();
 VALUE initialize_rb_clibssh_connection(VALUE self, VALUE hostname, VALUE options);
 VALUE rb_clibssh_connection_hostname(VALUE self);
 VALUE rb_clibssh_connection_connected_q(VALUE self);
+VALUE rb_clibssh_connection_connect(VALUE self);
 
 typedef struct rb_ssh_connection
 {
